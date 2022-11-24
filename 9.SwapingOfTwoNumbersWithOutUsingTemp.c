@@ -10,6 +10,7 @@ int main(void){
     b=a+b;
     a=b-a;
     printf("After swaping the first number is :%d\n",a);
+    printf("After swaping the first number is :%d\n",a);
     printf("After swaping the second number is %d \n",b);
     return 0;
 }
