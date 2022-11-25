@@ -3,12 +3,10 @@
 float multiple(float,float);
 int main(void){
     float num1,num2,result;
-    printf("Enter any 2 nubers :\n");
+    printf("Enter any 2 numbers :\n");
     scanf("%f%f",&num1,&num2);
     result = multiple(num1,num2);
-    printf("Result = %f",result);
-
-
+    printf("%f * %f = %f",num1,num2,result);
     return 0;
 }
 float multiple(float x,float y){

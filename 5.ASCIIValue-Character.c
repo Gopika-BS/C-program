@@ -3,8 +3,8 @@
 int main(void)
 {
     char alphabet;
-    printf("Entter a Alphabet\n");
+    printf("Enter a Alphabet\n");
     scanf("%c", &alphabet);
-    printf("ASCII Value of Enterd letter are:%d\n", alphabet);
+    printf("ASCII value of \"%c\" is %d\n",alphabet, alphabet);
     return 0;
 }
