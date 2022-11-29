@@ -9,7 +9,7 @@ int main(void){
     lowerCaseVowel = (alphabet=='a'||alphabet=='e'||alphabet=='i'||alphabet=='o'||alphabet=='u');
     if(upperCaseVowel||lowerCaseVowel)
     {
-        printf(" %c : It is a vowel\n",alphabet);
+        printf("%c : It is a vowel\n",alphabet);
     }
     else{
         printf("%c : It is not a vowel",alphabet);

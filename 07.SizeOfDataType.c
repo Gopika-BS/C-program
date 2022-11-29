@@ -7,7 +7,7 @@ int main(void){
     double d;
     long double e;
     char f;
-    printf("Size of integer : %zu\n",sizeof(a));
+    printf("Size of intiger : %zu\n",sizeof(a));
     printf("Size of long int : %zu\n",sizeof(b));
     printf("Size of float : %zu\n",sizeof(c));
     printf("Size of double : %zu\n",sizeof(d));

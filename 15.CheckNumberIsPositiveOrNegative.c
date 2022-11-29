@@ -4,16 +4,14 @@ int main(void){
     int num1;
     printf("Enter any number\n");
     scanf("%d",&num1);
-    if(num1==0){
-        printf("The number is neither positive or negative\n");
+    if(num1 == 0){
+        printf("\"%d\" is neither positive nor negative\n",num1);
         }
         else if(num1<0){
-            printf("The number is negative\n");
+            printf("\"%d\" is negative number\n",num1);
         }
         else{
-            printf("The number is positive\n");
+            printf("\"%d\" is positive number \n",num1);
         }
-    
-
     return EXIT_SUCCESS;
 }

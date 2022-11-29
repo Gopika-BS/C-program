@@ -6,9 +6,9 @@ int main(void){
     scanf("%d%d",&a,&b);
     printf("Before swapping the first number is : %d\n",a);
     printf("Before swapping second number is : %d\n",b);
-    a=a-b;
-    b=a+b;
-    a=b-a;
+    a = a-b;
+    b = a+b;
+    a = b-a;
     printf("After swapping the first number is : %d\n",a);
     printf("After swapping the second number is : %d \n",b);
     return 0;

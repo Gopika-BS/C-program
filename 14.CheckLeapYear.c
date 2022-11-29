@@ -5,11 +5,11 @@ int main (void){
     printf("Finding the leap year\n");
     printf("Enter the year\n");
     scanf("%d",&year);
-    if(year%4==0){
-        printf("The year is a leap year");
+    if(year%4 == 0){
+        printf("\"%d\" is a leap year",year);
     }
     else{
-        printf("The year is not a leap year");
+        printf("\"%d\" is not a leap year",year);
     }
     return EXIT_SUCCESS;
 }
