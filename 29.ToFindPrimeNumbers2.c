@@ -7,7 +7,7 @@ int main (void){
     printf("=====================\n");
     printf("Enter any number\n");
     scanf("%d",&n);
-    for(i=2;i<n;i++){
+    for(i=2;i<=n;i++){
         r = n%i;
         printf("%d / %d = %d",n,i,r);
         if(n%i == 0){
