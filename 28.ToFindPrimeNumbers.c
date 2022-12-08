@@ -11,11 +11,11 @@ int main (void){
         r = n%i;
         printf("%d / %d = %d",n,i,r);
         if(n%i == 0){
-            printf("// True\n");
+            // printf("// True\n");
             printf("It is not a prime number");
         }
         else{
-            printf("// False\n");
+            //printf("// False\n");
             printf("'%d' is a prime number",n);
         }
     }
