@@ -4,10 +4,7 @@ int main(void)
 {
     int r, c, a[20][20], b[20][20], s[20][20], i, j,flag=0,k=0;
     // int a[2][2]={1,1,1,1},b[2][2]={2,2,2,2},s[2][2]={3,3,3,3},r=2,c=2,i,j,flag=0;
-    a[0][0] = 1;
-    a[0][1] = 2;
-    a[1][0] = 3;
-    a[1][0] = 4;
+
     printf("Enter the number of rows ");
     scanf("%d", &r);
     printf("Enter the number of columns ");
