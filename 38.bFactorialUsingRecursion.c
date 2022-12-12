@@ -1,32 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-fact(int);
-int i=1;
+int factorial (int);
 int main(void){
-    int limit, factorial;
-    printf("Enter number\n");
-    scanf("%d", &limit);
-    // printf("++++++Start++++++++\n",limit);
-    factorial = fact(limit);
-    printf("%d! = %d\n", limit, factorial);
-    // printf("++++++++End++++++++\n",limit);
+int num,result;
+printf("Enter any number \n");
+scanf("%d",&num);
+result = factorial (num);
+printf("%d! = %d ",num,result);
+
     return EXIT_SUCCESS;
 }
-int fact(int limit){
-    int x;
-    printf("++++++Iteration %d++++++++\n",i);
-    printf("x = %d\n", x);
-    printf("limit = %d\n", limit);
-    i++;
-    printf("++++++++End++++++++\n",limit);
-    if (limit >= 1){
-        x = limit * fact(limit - 1);
-        // printf("%d * ",x);
-        // printf("\n");
-        return limit * fact(limit - 1);
+int factorial (int num){
+   if (num != 0){
+    return  num * factorial(num - 1);
     }
-    else{
-        printf("Else\n");
-        return 1;
-    }
+   else{
+    return 1;
+   }
+   
 }
